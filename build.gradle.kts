@@ -42,6 +42,7 @@ taboolib {
             name("ItemsAdder").optional(true)
             name("floodgate-bukkit").optional(true)
             name("FastScript").optional(true)
+            name("MagicCosmetics").optional(true)
         }
     }
     relocate("trplugins.menu", group.toString().toLowerCase())

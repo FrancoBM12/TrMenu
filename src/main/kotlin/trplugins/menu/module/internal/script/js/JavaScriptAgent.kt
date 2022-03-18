@@ -24,7 +24,8 @@ object JavaScriptAgent {
 
     private val bindings = mapOf(
         "bukkitServer" to Bukkit.getServer(),
-        "utils" to Assist.INSTANCE
+        "utils" to Assist.INSTANCE,
+        "magicApi" to MC.INSTANCE
     )
 
     private val compiledScripts = Maps.newConcurrentMap<String, CompiledScript>()
