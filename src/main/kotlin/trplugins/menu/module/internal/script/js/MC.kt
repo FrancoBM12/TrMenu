@@ -23,6 +23,15 @@ class MC {
         return MagicAPI.getEquipped(name, type)
     }
 
+    fun getCosmetic(id: String): ItemStack? {
+        return MagicAPI.getCosmeticItem(id);
+    }
+
+    fun hasCosmetic(id: String): Boolean {
+        val item = getCosmetic(id)
+        return !(item == null || item.type == Material.AIR)
+    }
+
     fun hasEquipped(name: String, type: String): Boolean {
         val item = getEquipped(name, type)
         return !(item == null || item.type == Material.AIR)
