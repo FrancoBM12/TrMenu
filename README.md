@@ -2,6 +2,18 @@
 ![](https://img.shields.io/github/last-commit/Arasple/TrMenu?logo=artstation&style=for-the-badge&color=9266CC)![](https://img.shields.io/github/issues/InsinuateProjects/TrMenu?style=for-the-badge&logo=slashdot)![](https://img.shields.io/github/release/Arasple/TrMenu?style=for-the-badge&color=00C58E&logo=ionic)
 
 ---
+### (NEW!!!) 🌟 MagicAPI with JS:
+Examples
+```yml
+source:JS:magicApi.getCosmetic("id") #returns the specified cosmetic item.
+source:JS:magicApi.hasCosmetic("id") #check if the cosmetic exists on the server.
+source:JS:magicApi.getEquipped("FrancoBM", "HAT") #get the itemstack of the cosmetic of type "HAT".
+source:JS:magicApi.hasEquipped("FrancoBM", "HAT") #check if the player has a "HAT" type cosmetic equipped.
+source:JS:magicApi.hasCosmetic("FrancoBM", "id") #checks if the player has the cosmetic unlocked.
+source:JS:magicApi.getPlayerAllCosmeticsAvailable("FrancoBM") #returns the amount of cosmetics that the player has unlocked.
+source:JS:magicApi.getServerAllCosmeticsAvailable() #returns the number of cosmetics that exist on the server.
+```
+
 
 ### 🔔 What's new in TrMenu v3?
 
