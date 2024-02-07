@@ -66,6 +66,7 @@ dependencies {
     // Libraries
     compileOnly("org.apache.commons:commons-lang3:3.12.0")
     compileOnly("com.electronwill.night-config:core:3.6.5")
+    compileOnly("com.github.FrancoBM12:API-MagicCosmetics:2.2.6")
 
     // Server Core
     compileOnly("ink.ptms.core:v11903:11903-minimize:mapped")
